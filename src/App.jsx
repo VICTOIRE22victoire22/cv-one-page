@@ -49,6 +49,15 @@ function App() {
                 GitHub
               </a>
             </p>
+            <p>
+              <a
+                href="https://portefolio-odile.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio
+              </a>
+            </p>
           </div>
         </header>
 
