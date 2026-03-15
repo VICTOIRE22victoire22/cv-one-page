@@ -142,6 +142,10 @@ function App() {
               >
                 GitHub
               </a>
+              {" • "}
+              <a href="/" onClick={(e) => handleDemoClick(e, "stage")}>
+                Démo
+              </a>
             </p>
 
             {activeVideo === "stage" && (
@@ -265,8 +269,8 @@ function App() {
                 Aircraft Engines
               </li>
               <li>
-                <strong>2013 - 2015</strong> — Opératrice en préparation
-                brasage — Safran Aircraft Engines
+                <strong>2013 - 2015</strong> — Opératrice en préparation brasage
+                — Safran Aircraft Engines
               </li>
               <li>
                 <strong>2009 - 2012</strong> — Employée administrative et
