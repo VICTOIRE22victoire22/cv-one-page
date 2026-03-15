@@ -3,6 +3,7 @@ import "./App.css";
 import demoVideoRecipes from "./assets/video-recipes.mp4";
 import demoVideoBienEtre from "./assets/video-bien-etre.mp4";
 import demoVideoEcfBackend from "./assets/video-ecf-backend.mp4";
+import demoVideoStage from "./assets/video-stage.mp4";
 
 function App() {
   const [activeVideo, setActiveVideo] = useState(null);
@@ -146,7 +147,7 @@ function App() {
             {activeVideo === "stage" && (
               <div className="video-container">
                 <video controls width="700">
-                  <source src={demoVideoStageDwwm} type="video/mp4" />
+                  <source src={demoVideoStage} type="video/mp4" />
                   Votre navigateur ne supporte pas la vidéo.
                 </video>
               </div>
